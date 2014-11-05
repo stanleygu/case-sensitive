@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('sg.case.sensitive')
+angular.module('sg.case.sensitive', [])
   .directive('caseSensitive', function() {
     return {
       link: function(scope, element, attr) {
